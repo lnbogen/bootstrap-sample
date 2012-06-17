@@ -91,7 +91,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/public/bootstrap/js/bootstrap-transition.js"></script>
+
+    <!--<script src="/public/bootstrap/js/bootstrap-transition.js"></script>
     <script src="/public/bootstrap/js/bootstrap-alert.js"></script>
     <script src="/public/bootstrap/js/bootstrap-modal.js"></script>
     <script src="/public/bootstrap/js/bootstrap-dropdown.js"></script>
@@ -102,7 +103,14 @@
     <script src="/public/bootstrap/js/bootstrap-button.js"></script>
     <script src="/public/bootstrap/js/bootstrap-collapse.js"></script>
     <script src="/public/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="/public/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="/public/bootstrap/js/bootstrap-typeahead.js"></script>-->
+
+    #{press.script 'bootstrap-transition.js ' /}
+    #{press.script 'bootstrap-alert.js' /}
+    #{press.script 'bootstrap-modal.js' /}
+    #{press.script 'bootstrap-dropdown.js' /}
+    #{press.script 'bootstrap-scrollspy.js' /}
+    #{press.compressed-script /}
 
   </body>
 </html>
