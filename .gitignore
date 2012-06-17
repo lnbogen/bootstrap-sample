@@ -11,4 +11,4 @@ server.pid
 logs/
 tmp/
 application.log
-/public/boostrap/js/press/*.js
+public/bootstrap/js/press/*.js
