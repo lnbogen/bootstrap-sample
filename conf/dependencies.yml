@@ -1,0 +1,22 @@
+# Application dependencies
+
+require:
+    - play
+    #- moreCustomModules -> press
+    #- customModules -> less
+    - play -> less 0.9.1
+    - play -> press 1.0.29
+
+repositories:
+
+    - playCustomModules:
+        type: local
+        artifact: "C:\\work\\cs\\portal\\modules\\less"
+        contains:
+            - customModules -> *
+
+    - playMoreCustomModules:
+        type: local
+        artifact: "C:\\work\\press"
+        contains:
+            - moreCustomModules -> *
