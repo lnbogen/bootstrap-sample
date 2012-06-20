@@ -4,8 +4,8 @@ require:
     - play
     #- moreCustomModules -> press
     #- customModules -> less
-    # - play -> less 0.9.1
-    - play -> press 1.0.29
+    - play -> press 1.0.31
+    - play -> less 0.9.1
 
 repositories:
 

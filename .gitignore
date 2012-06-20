@@ -12,3 +12,5 @@ logs/
 tmp/
 application.log
 public/bootstrap/js/press/*.js
+public/bootstrap/less/press/*.css
+modules/**

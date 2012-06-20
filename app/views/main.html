@@ -9,15 +9,14 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    #{press.stylesheet 'bootstrap.less' /}
+    <link href="@{'/public/bootstrap/less/bootstrap.less'}" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
-    #{press.stylesheet 'responsive.less' /}
-    #{press.compressed-stylesheet /}
+    <link href="@{'/public/bootstrap/less/responsive.less'}" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -106,7 +105,7 @@
     <script src="/public/bootstrap/js/bootstrap-carousel.js"></script>
     <script src="/public/bootstrap/js/bootstrap-typeahead.js"></script>-->
 
-    #{press.script 'bootstrap-transition.js ' /}
+    #{press.script 'bootstrap-transition.js' /}
     #{press.script 'bootstrap-alert.js' /}
     #{press.script 'bootstrap-modal.js' /}
     #{press.script 'bootstrap-dropdown.js' /}
